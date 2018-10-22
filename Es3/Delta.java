@@ -13,13 +13,13 @@ public class Delta {
 		ConsoleOutputManager out = new ConsoleOutputManager();
 		double a, b, c;
 		
-		System.out.printf("Scrivi a: ");
+		out.printf("Scrivi a: ");
 		a = in.readInt();
 
-		System.out.printf("Scrivi b: ");
+		out.printf("Scrivi b: ");
 		b = in.readInt();
 
-		System.out.printf("Scrivi c: ");
+		out.printf("Scrivi c: ");
 		c = in.readInt();
 
 		// Calcolo il delta della parabola e in base ad
@@ -31,14 +31,14 @@ public class Delta {
 		double dt = (b * b) - (4 * a * c);
 
 		if (dt < 0) {
-			System.out.println("Non esistono soluzioni reali. (Prova con -a).");
+			out.println("Non esistono soluzioni reali. (Prova con -a).");
 		} else if (dt == 0) {
-			System.out.println("L' equazione ha una sola soluzione.");
-			System.out.printf("X = %.2f \n", (-b) / 2 * a);
+			out.println("L' equazione ha una sola soluzione.");
+			out.printf("X = %.2f \n", (-b) / 2 * a);
 		} else {
-			System.out.println("L' equazione ha due soluzioni.");
-			System.out.printf("X1 = %.2f \n", (-b - Math.sqrt(dt)) / 2 * a);
-			System.out.printf("X2 = %.2f \n", (-b + Math.sqrt(dt)) / 2 * a);
+			out.println("L' equazione ha due soluzioni.");
+			out.printf("X1 = %.2f \n", (-b - Math.sqrt(dt)) / 2 * a);
+			out.printf("X2 = %.2f \n", (-b + Math.sqrt(dt)) / 2 * a);
 		}
 	}
 }
