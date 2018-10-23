@@ -1,0 +1,1 @@
+Scrivete un’applicazione che letti due numeri interi ne calcoli la somma e la visualizzi.
