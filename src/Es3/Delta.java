@@ -9,20 +9,13 @@ import prog.io.ConsoleOutputManager;
  */
 public class Delta {
 	public static void main(String[] args) {
-
-		// Chiedo all'utente i parametri della parabola: a, b, c
 		ConsoleInputManager in = new ConsoleInputManager();
 		ConsoleOutputManager out = new ConsoleOutputManager();
-		double a, b, c;
-		
-		out.printf("Scrivi a: ");
-		a = in.readInt();
 
-		out.printf("Scrivi b: ");
-		b = in.readInt();
-
-		out.printf("Scrivi c: ");
-		c = in.readInt();
+		// Chiedo all'utente i parametri della parabola: a, b, c		
+		double a = in.readInt("Scrivi a: ");
+		double b = in.readInt("Scrivi b: ");
+		double c = in.readInt("Scrivi c: ");
 
 		// Calcolo il delta della parabola e in base ad
 		// posso mostro il risultato corretto:

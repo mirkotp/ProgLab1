@@ -9,17 +9,12 @@ import prog.io.ConsoleOutputManager;
  */
 public class Somma {
 	public static void main(String[] args) {
-
-		// Chiedo all'utente i due numeri interi
 		ConsoleInputManager in = new ConsoleInputManager();
 		ConsoleOutputManager out = new ConsoleOutputManager();
-		int a, b;
 		
-		out.printf("Scrivi a: ");
-		a = in.readInt();
-
-		out.printf("Scrivi b: ");
-		b = in.readInt();
+		// Chiedo all'utente i due numeri interi
+		int a = in.readInt("Scrivi a: ");
+		int b = in.readInt("Scrivi b: ");
 
 		out.printf("%d + %d = %d", a, b, a+b);
 	}
