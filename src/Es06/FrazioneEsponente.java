@@ -38,10 +38,6 @@ public class FrazioneEsponente {
 		}
 
 
-		out.printf("Il valore di %d/%d EXP %d e' %d/%d.\n", num, 
-															den, 
-															esp, 
-															frazioneRisultato.getNumeratore(), 
-															frazioneRisultato.getDenominatore());
+		out.printf("Il valore di %d/%d EXP %d e' %d/%d.\n",	num, den, esp, frazioneRisultato.getNumeratore(), frazioneRisultato.getDenominatore());
 	}
 }
