@@ -1,7 +1,7 @@
 Questo repository contiene gli esercizi svolti in laboratorio.   
 Gli esercizi fanno largo uso della libreria Prog, illustrata nel libro:
 
-__Dai fondamenti agli oggetti. Corso di programmazione Java (Quarta Edizione)__   
+__Dai fondamenti agli oggetti. Corso di programmazione Java__ (Quarta Edizione)   
 _G. Pizzighini, M.Ferrari_   
 Pearson
 
@@ -15,9 +15,7 @@ Scrivete un’applicazione che, letta una stringa alfanumerica, converta i carat
 
 ## [Es03 - SoluzioniParabola](./src/Es03)
 
-Scrivete un'applicazione per la soluzione delle equazioni di secondo grado: 
-
-__ax^2 + bx + c = 0__
+Scrivete un'applicazione per la soluzione delle equazioni di secondo grado.
 
 Il programma deve prendere in ingresso il valore dei coefficienti a, b e c e risolvere l'equazione derivando i valori di x.
 
@@ -47,9 +45,11 @@ Scrivete un’applicazione che preso in ingresso un numero intero positivo indic
 
 Estendete l’applicazione dell’esercizio precedente in modo che comunichi anche il nome della cifra in lettere.
 
-## [Es10 - TBD](./src/Es010)
+## [Es10 - EstraiCifreInvertito](./src/Es010)
 
-TBD
+Scrivete un’applicazione che, letto un numero intero comunichi se il numero è negativo o positivo e visualizzi su linee separate le cifre che lo compongono dalla PIU’ significativa alla MENO significativa.
+
+(Insomma, come l'8 ma con l'output invertito.)
 
 ## [Es11 - String2Int](./src/Es11)
 
