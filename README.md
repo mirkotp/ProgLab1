@@ -27,9 +27,10 @@ Scrivete un’applicazione che preso in ingresso un numero intero positivo indic
 
 Scrivete un’applicazione che, letta una sequenza di frazioni, determini la somma della sequenza e la frazione minore e la frazione maggiore che compaiono nella sequenza, e le stampi sul monitor.
 
-## [Es06 - TBD](./src/Es06)
+## [Es06 - FrazioneEsponente](./src/Es06)
 
-TBD
+Scrivete un’applicazione che legga una frazione e un esponente (numero intero) e calcoli la frazione ottenuta elevando la frazione data all’esponente.
+Ad esempio, se viene letta la frazione 2/3 e l’esponente è 3, il risultato dovrà essere la frazione 8/27, se invece viene letta la frazione 2/3 e l’esponente è -3, il risultato dovrà essere la frazione 27/8.
 
 ## [Es07 - NumeroArmonico](./src/Es07)
 
