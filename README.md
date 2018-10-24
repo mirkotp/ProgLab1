@@ -46,7 +46,7 @@ Scrivete un’applicazione che preso in ingresso un numero intero positivo indic
 
 Estendete l’applicazione dell’esercizio precedente in modo che comunichi anche il nome della cifra in lettere.
 
-## [Es10 - EstraiCifreInvertito](./src/Es010)
+## [Es10 - EstraiCifreInvertito](./src/Es10)
 
 Scrivete un’applicazione che, letto un numero intero comunichi se il numero è negativo o positivo e visualizzi su linee separate le cifre che lo compongono dalla PIU’ significativa alla MENO significativa.
 
