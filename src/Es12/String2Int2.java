@@ -1,23 +1,24 @@
-package Es9;
+package Es12;
 
-import prog.io.ConsoleInputManager;
-import prog.io.ConsoleOutputManager;
+import prog.io.*;
 
-public class String2Int {
+public class String2Int2 {
 	public static void main(String[] args) {
 		ConsoleInputManager in = new ConsoleInputManager();
 		ConsoleOutputManager out = new ConsoleOutputManager();
 
-		String num = in.readLine("Inserisci un numero: ");
+		// Prendiamo in input una stringa e la puliamo direttamente da
+		// eventuali spazi a inizio o fine stringa con trim();
+		String num = in.readLine("Inserisci un numero: ").trim();
+
 		int numInt = 0;
 		int currentEsp = 1;
 
 		for (int i = num.length() -1; i >= 0; i--) {
 			char current = num.charAt(i);
-			int cifra = current - 48;
 
-			if(cifra >= 0 && cifra <= 9) {
-				numInt += (int)cifra * currentEsp;
+			if(Character.isDigit(current)) {
+				numInt += Character.getNumericValue(current) * currentEsp;
 			} else {
 				if(i == 0 && current == '-') {
 					numInt *= -1;

@@ -1,12 +1,11 @@
-package Es2;
+package Es02;
 
-import prog.io.ConsoleInputManager;
-import prog.io.ConsoleOutputManager;
+import prog.io.*;
 
 /**
  * Questo programma chiede all'utente una stringa
  * e la restituisce convertendo i caratteri pari in 
- * mminuscolo e i caratteri dispari in maiuscolo.
+ * minuscolo e i caratteri dispari in maiuscolo.
  */
 public class ConvertiStringa {
 	public static void main(String[] args) {

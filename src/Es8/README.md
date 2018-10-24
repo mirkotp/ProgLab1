@@ -1,1 +1,0 @@
-Scrivete un’applicazione che preso in ingresso un numero intero positivo indichi se tale numero `e primo.

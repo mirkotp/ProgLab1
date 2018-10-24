@@ -1,1 +1,0 @@
-Scrivete un’applicazione che, letta una stringa alfanumerica, converta i caratteri alfabetici in posizione pari in stampatello minuscolo e quelli in posizione dispari in stampatello maiuscolo.

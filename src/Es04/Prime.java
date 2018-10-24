@@ -1,7 +1,6 @@
-package Es4;
+package Es04;
 
-import prog.io.ConsoleInputManager;
-import prog.io.ConsoleOutputManager;
+import prog.io.*;
 
 /**
  * Questo programma riceve un numero dall'utente e determina
@@ -26,9 +25,9 @@ public class Prime {
 		}
 
 		if(primo) {
-			out.printf("%d e' un numero primo", num);
+			out.printf("%d e' un numero primo.\n", num);
 		} else {
-			out.printf("%d non e' un numero primo", num);
+			out.printf("%d non e' un numero primo.\n", num);
 		}
 	}
 }

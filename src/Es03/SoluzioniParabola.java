@@ -1,13 +1,12 @@
-package Es3;
+package Es03;
 
-import prog.io.ConsoleInputManager;
-import prog.io.ConsoleOutputManager;
+import prog.io.*;
 
 /**
  * Questo programma riceve in input dall'utente l'equazione di
  * una parabola e ne calcola le eventuali soluzioni reali.
  */
-public class Delta {
+public class SoluzioniParabola {
 	public static void main(String[] args) {
 		ConsoleInputManager in = new ConsoleInputManager();
 		ConsoleOutputManager out = new ConsoleOutputManager();

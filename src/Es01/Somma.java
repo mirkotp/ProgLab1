@@ -1,7 +1,6 @@
-package Es1;
+package Es01;
 
-import prog.io.ConsoleInputManager;
-import prog.io.ConsoleOutputManager;
+import prog.io.*;
 
 /**
  * Questo programma riceve in input dall'utente  due numeri
@@ -16,6 +15,6 @@ public class Somma {
 		int a = in.readInt("Scrivi a: ");
 		int b = in.readInt("Scrivi b: ");
 
-		out.printf("%d + %d = %d", a, b, a+b);
+		out.printf("%d + %d = %d\n", a, b, a+b);
 	}
 }
