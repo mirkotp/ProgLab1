@@ -14,7 +14,7 @@ public class String2Int2 {
 		int numInt = 0;
 		int currentEsp = 1;
 
-		for (int i = num.length() -1; i >= 0; i--) {
+		for (int i = num.length()-1; i >= 0; i--) {
 			char current = num.charAt(i);
 
 			if(Character.isDigit(current)) {
@@ -23,7 +23,7 @@ public class String2Int2 {
 				if(i == 0 && current == '-') {
 					numInt *= -1;
 				} else {
-					out.println("Hai inserito una shifezza, balordo!");
+					out.println("Hai inserito una schifezza!");
 					return;
 				}
 			}

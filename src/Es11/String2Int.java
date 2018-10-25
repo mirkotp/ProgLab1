@@ -14,17 +14,17 @@ public class String2Int {
 		int numInt = 0;
 		int currentEsp = 1;
 
-		for (int i = num.length() -1; i >= 0; i--) {
+		for (int i = num.length()-1; i >= 0; i--) {
 			char current = num.charAt(i);
 			int cifra = current - 48;
 
 			if(cifra >= 0 && cifra <= 9) {
-				numInt += (int)cifra * currentEsp;
+				numInt += cifra * currentEsp;
 			} else {
 				if(i == 0 && current == '-') {
 					numInt *= -1;
 				} else {
-					out.println("Hai inserito una shifezza, balordo!");
+					out.println("Hai inserito una schifezza!");
 					return;
 				}
 			}
