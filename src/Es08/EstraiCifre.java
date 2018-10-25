@@ -2,6 +2,10 @@ package Es08;
 
 import prog.io.*;
 
+/**
+ * Questo programma richiede un numero all'utente, determina se
+ * questo è positivo o negativo, e lo stampa cifra per cifra (senza segno).
+ */
 public class EstraiCifre {
 	public static void main(String[] args) {
 		ConsoleInputManager in = new ConsoleInputManager();
@@ -15,10 +19,8 @@ public class EstraiCifre {
 			out.println("Il numero e' negativo.");
 		}
 
-		// Trovo il valore assoluto
+		// Trovo il valore assoluto del numero e lo stampo cifra per cifra.
 		num = num >= 0 ? num : -num;
-
-		out.println("Estraggo il numero...");
 		
 		int counter = 0;
 		int resto = 0;

@@ -12,22 +12,17 @@ public class Prime {
 		ConsoleOutputManager out = new ConsoleOutputManager();
 
 		int num = in.readInt("Inserisci un numero: ");
-		Boolean primo = true;
 
 		// Determino se il numero è primo controllando il resto
 		// della divisione con tutti i numeri che potrebbero essere suoi 
 		// divisori (da 2 a num/2).
 		for(int i = 2; i <= (num/2); i++) {
 			if(num % i == 0) {
-				primo = false;
-				break;
+				out.printf("%d non e' un numero primo.\n", num);
+				return;
 			}
 		}
 
-		if(primo) {
-			out.printf("%d e' un numero primo.\n", num);
-		} else {
-			out.printf("%d non e' un numero primo.\n", num);
-		}
+		out.printf("%d e' un numero primo.\n", num);
 	}
 }

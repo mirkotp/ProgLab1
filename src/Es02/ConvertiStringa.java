@@ -3,9 +3,8 @@ package Es02;
 import prog.io.*;
 
 /**
- * Questo programma chiede all'utente una stringa
- * e la restituisce convertendo i caratteri pari in 
- * minuscolo e i caratteri dispari in maiuscolo.
+ * Questo programma chiede all'utente una stringa e la restituisce
+ * convertendo i caratteri pari in minuscolo e i caratteri dispari in maiuscolo.
  */
 public class ConvertiStringa {
 	public static void main(String[] args) {
@@ -19,7 +18,7 @@ public class ConvertiStringa {
 		for(int i = 0; i < input.length(); i++) {
 			if(i % 2 == 0) {	// È pari
 				out.printf("%c", Character.toLowerCase(input.charAt(i)));
-			} else {				// È dispari
+			} else {			// È dispari
 				out.printf("%c", Character.toUpperCase(input.charAt(i)));
 			}
 		}

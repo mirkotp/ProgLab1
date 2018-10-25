@@ -11,10 +11,11 @@ public class Somma {
 		ConsoleInputManager in = new ConsoleInputManager();
 		ConsoleOutputManager out = new ConsoleOutputManager();
 		
-		// Chiedo all'utente i due numeri interi
+		// Chiedo all'utente i due numeri interi.
 		int a = in.readInt("Scrivi a: ");
 		int b = in.readInt("Scrivi b: ");
 
+		// Stampo il risultato
 		out.printf("%d + %d = %d\n", a, b, a+b);
 	}
 }
