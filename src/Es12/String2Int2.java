@@ -13,7 +13,7 @@ public class String2Int2 {
 
 		String num = in.readLine("Inserisci un numero: ").trim();
 
-		// Tutto esattamente come prima ma in questo caso lascio
+		// Tutto esattamente come String2Int ma in questo caso lascio
 		// fare alla classe Character il controllo (isDigit), e 
 		// l'estrazione della cifra (getNumericValue).
 		int numInt = 0;
