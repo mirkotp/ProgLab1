@@ -1,5 +1,5 @@
-Questo repository contiene gli esercizi svolti in laboratorio.   
-Gli esercizi fanno largo uso della libreria Prog, illustrata nel libro:
+﻿Questo repository contiene gli esercizi svolti in laboratorio.   
+Gli esercizi fanno largo uso della libreria Prog, illustrata nel librobb:
 
 __Dai fondamenti agli oggetti. Corso di programmazione Java__ (Quarta Edizione)   
 _G. Pizzighini, M.Ferrari_   
