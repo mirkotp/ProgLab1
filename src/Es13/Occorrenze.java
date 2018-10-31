@@ -1,5 +1,7 @@
 package Es13;
 
+import java.lang.reflect.Array;
+
 import prog.io.*;
 
 public class Occorrenze {
@@ -21,7 +23,7 @@ public class Occorrenze {
 		
 		out.println("La stringa e' composta da:");
 
-		for(int i = 0; i < dimensione; i++) {
+		for(int i = 0; i < Array.getLength(occorrenze); i++) {
 			if(occorrenze[i] > 0) {
 				out.printf("%c - %d occorrenze.\n", i + 'a', occorrenze[i]);
 			}
