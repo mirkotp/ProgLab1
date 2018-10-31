@@ -11,7 +11,7 @@ public class Occorrenze {
 
 		String stringa = in.readLine("Inserisci una stringa: ");
 		int dimensione = 'z' - 'a' + 1;
-		int occorrenze[] = new int[dimensione];
+		int[] occorrenze = new int[dimensione];
 
 		for(int i = 0; i < stringa.length(); i++) {
 			int c = (int)Character.toLowerCase(stringa.charAt(i)) - 97;

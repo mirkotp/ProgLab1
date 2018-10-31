@@ -17,8 +17,8 @@ public class ArrayRandomPositivi {
 
 		int max = in.readInt("Inserisci il valore massimo (verra' usato il valore assoluto): ");
 		max = Math.abs(max);
-		
-		int casuali[] = new int[dimensione];
+
+		int[] casuali = new int[dimensione];
 
 		Random rnd = new Random();
 
@@ -27,9 +27,12 @@ public class ArrayRandomPositivi {
 		}
 
 		out.println("Array generato:");
-
-		for(int i = 0; i < dimensione; i++) {
-			out.printf("%d ", casuali[i]);
+		String output = "[";
+		for(int n : casuali) {
+			output += n + ",";
 		}
+		output += "]";
+
+		out.println(output);
 	}
 }

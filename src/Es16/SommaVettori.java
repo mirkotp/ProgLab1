@@ -11,8 +11,8 @@ public class SommaVettori {
 		int dimensione = Integer.parseInt(args[0]);
 		int max = 100;
 
-		int vettoreA[] = new int[dimensione];
-		int vettoreB[] = new int[dimensione];
+		int[] vettoreA = new int[dimensione];
+		int[] vettoreB = new int[dimensione];
 
 		Random rnd = new Random();
 
@@ -27,6 +27,8 @@ public class SommaVettori {
 			out.printf("%d ", vettoreA[i]);
 		}
 		out.println();
+		
+
 		// Stampo B
 		out.printf("b =\t");
 		for(int i = 0; i < dimensione; i++) {
