@@ -15,7 +15,9 @@ public class ArrayRandomPositivi {
 			return;
 		}
 
-		int max = in.readInt("Inserisci il valore massimo: ");
+		int max = in.readInt("Inserisci il valore massimo (verra' usato il valore assoluto): ");
+		max = Math.abs(max);
+		
 		int casuali[] = new int[dimensione];
 
 		Random rnd = new Random();
