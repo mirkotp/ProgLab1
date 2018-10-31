@@ -8,7 +8,8 @@ public class Occorrenze {
 		ConsoleOutputManager out = new ConsoleOutputManager();
 
 		String stringa = in.readLine("Inserisci una stringa: ");
-		int occorrenze[] = new int[26];
+		int dimensione = 'z' - 'a' + 1;
+		int occorrenze[] = new int[dimensione];
 
 		for(int i = 0; i < stringa.length(); i++) {
 			int c = (int)Character.toLowerCase(stringa.charAt(i)) - 97;
@@ -20,9 +21,9 @@ public class Occorrenze {
 		
 		out.println("La stringa e' composta da:");
 
-		for(int i = 0; i < 26; i++) {
+		for(int i = 0; i < dimensione; i++) {
 			if(occorrenze[i] > 0) {
-				out.printf("%c - %d occorrenze.\n", i + 97, occorrenze[i]);
+				out.printf("%c - %d occorrenze.\n", i + 'a', occorrenze[i]);
 			}
 		}
 
